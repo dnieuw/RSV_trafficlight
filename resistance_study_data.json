@@ -1,0 +1,234 @@
+{
+  "studies": [
+    {
+      "reference": "Griffin MP et al., NEJM 2020",
+      "study_title": "Single-Dose Nirsevimab for Prevention of RSV in Preterm Infants!",
+      "study_type": "Phase 2b clinical trial",
+      "population": "MA RSV LRTI (preterm infants)",
+      "notes": "",
+      "DOI": "https://doi.org/10.1056/nejmoa1913556",
+      "study_setup": {
+        "nirsevimab": 25,
+        "placebo": 46
+      },
+      "nirsevimab": {
+        "RSV_B": [
+          {
+            "mutations": [
+              "N208S"
+            ],
+            "N": 1
+          },
+          {
+            "mutations": [
+              "I64T",
+              "K68E",
+              "I206M",
+              "Q209R"
+            ],
+            "N": 1
+          }
+        ]
+      }
+    },
+    {
+      "reference": "Ahani B et al., Nat Commun 2023",
+      "study_title": "Molecular and phenotypic characteristics of RSV infections in infants during two nirsevimab randomized clinical trials",
+      "study_type": "Phase 2b and Melody clinical trials",
+      "population": "MA RSV LRTI",
+      "notes": "RSV isolates evaluable with NGS (includes overlapping data with Griffin et al.)",
+      "DOI": "https://doi.org/10.1038/s41467-023-40057-8",
+      "study_setup": {
+        "nirsevimab": 100,
+        "placebo": 142
+      },
+      "nirsevimab": {
+        "RSV_B": [
+          {
+            "mutations": [
+              "I64T",
+              "K68E",
+              "I206M",
+              "Q209R"
+            ],
+            "N": 1
+          },
+          {
+            "mutations": [
+              "I64T"
+            ],
+            "N": 1
+          },
+          {
+            "mutations": [
+              "N208S"
+            ],
+            "N": 1
+          }
+        ]
+      }
+    },
+    {
+      "reference": "Fourati S et al., Lancet Infect Dis 2025",
+      "study_title": "Genotypic and phenotypic characterization of RSV after nirsevimab breakthrough infections: a large, multicentre, observational, real-world study",
+      "study_type": "Real-world observational study",
+      "population": "RSV-positive infants younger than 1 year during the 2023/2024 RSV season in France",
+      "notes": "",
+      "DOI": "https://doi.org/10.1016/s1473-3099(24)00570-x",
+      "study_setup": {
+        "nirsevimab": 260,
+        "untreated": 285
+      },
+      "nirsevimab": {
+        "RSV_B": [
+          {
+            "mutations": [
+              "N208D"
+            ],
+            "N": 1
+          },
+          {
+            "mutations": [
+              "I64M",
+              "K65R"
+            ],
+            "N": 1
+          }
+        ]
+      }
+    },
+    {
+      "reference": "Zhu Q et al., J Infect Dis 2018",
+      "study_title": "Prevalence and Significance of Substitutions in the Fusion Protein of RSV Resulting in Neutralization Escape From Antibody MEDI8897",
+      "study_type": "In vitro selection of escape mutants",
+      "population": "Not applicable",
+      "notes": "",
+      "DOI": "https://doi.org/10.1093/infdis/jiy189",
+      "study_setup": {},
+      "nirsevimab": {
+        "RSV_A": [
+          {
+            "mutations": [
+              "N67I",
+              "N206Y"
+            ]
+          }
+        ],
+        "RSV_B": [
+          {
+            "mutations": [
+              "N208S"
+            ]
+          },
+          {
+            "mutations": [
+              "K68N",
+              "N201S"
+            ]
+          },
+          {
+            "mutations": [
+              "N208D"
+            ]
+          },
+          {
+            "mutations": [
+              "K68N",
+              "N208S"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reference": "Wilkins D et al., Lancet Infect Dis 2023",
+      "study_title": "Nirsevimab binding-site conservation in RSV fusion glycoprotein worldwide between 1956 and 2021",
+      "study_type": "Prospective and retrospective surveillance",
+      "population": "RSV variants over time",
+      "notes": "",
+      "DOI": "https://doi.org/10.1016/s1473-3099(23)00062-2",
+      "study_setup": {
+        "prospective": 5675,
+        "retrospective": 3626
+      },
+      "nirsevimab": {
+        "RSV_A": [
+          {
+            "mutations": [
+              "K68G"
+            ],
+            "percentage": "0.07"
+          }
+        ],
+        "RSV_B": [
+          {
+            "mutations": [
+              "K68N"
+            ],
+            "percentage": "0.32"
+          },
+          {
+            "mutations": [
+              "K68Q"
+            ],
+            "percentage": "0.04"
+          },
+          {
+            "mutations": [
+              "N201S"
+            ],
+            "percentage": "0.21"
+          },
+          {
+            "mutations": [
+              "N201T"
+            ],
+            "percentage": "0.04"
+          },
+          {
+            "mutations": [
+              "N201T",
+              "I206M",
+              "Q209R"
+            ],
+            "percentage": "0.01"
+          },
+          {
+            "mutations": [
+              "K68Q",
+              "I206M",
+              "Q209R"
+            ],
+            "percentage": "0.01"
+          }
+        ]
+      }
+    },
+    {
+      "reference": "abracadabra",
+      "study_title": "ab",
+      "study_type": "a",
+      "population": "a",
+      "notes": "c",
+      "DOI": "a",
+      "study_setup": [],
+      "nirsevimab": {
+        "RSV_A": [
+          {
+            "mutations": [
+              "A2A",
+              "A3A"
+            ]
+          }
+        ],
+        "RSV_B": [
+          {
+            "mutations": [
+              "A1A"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+dashboardPage(
+  dashboardHeader(
+    title = "☣️RSV Trafficlight🚦"
+  ),
+  dashboardSidebar(
+    sidebarMenu(id = "sidebar",
+        menuItemOutput("welcome_tab"),
+        menuItemOutput("sequence_quality_tab"),
+        menuItemOutput("traffic_light_tab"),
+        menuItemOutput("additional_info_tab")
+    )
+  ),
+  dashboardBody(
+    tabItems(
+      tabItem("welcome_tab",
+        welcome_UI("welcome")
+      ),
+      tabItem("sequence_quality_tab",
+        sequence_quality_UI("sequence_quality")
+      ),
+      tabItem("traffic_light_tab",
+        traffic_light_UI("traffic_light")
+      ),
+      tabItem("additional_info_tab",
+        additional_info_UI("additional_info")
+      )
+    )
+  )
+)
